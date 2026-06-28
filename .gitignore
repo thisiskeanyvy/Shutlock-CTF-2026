@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local artefacts and temporary outputs
+*.log
+*.tmp
+*.bak
+*.swp
+*.pcap
+*.pcapng
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.bin
+*.elf
+*.so
+*.dylib
+*.exe
+build/
+dist/
+target/
+vendor/
