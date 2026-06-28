@@ -10,7 +10,7 @@ Ces notes sont destinées à documenter un CTF dans un cadre légal et pédagogi
 
 Les flags ci-dessous sont uniquement ceux dont la valeur exacte est reprise de façon fiable. Les autres challenges sont marqués `Non repris ici` afin d'éviter toute invention.
 
-Au total, 31 résolutions sont documentées, dont 22 avec flag exact publié. Pour les autres, la note reste volontairement limitée : certains challenges exigent une instance dynamique, un binaire original ou une archive qui ne fait pas partie de ce dépôt.
+Au total, 31 résolutions sont documentées, dont 23 avec flag exact publié. Pour les autres, la note reste volontairement limitée : certains challenges exigent une instance dynamique, un binaire original ou une archive qui ne fait pas partie de ce dépôt.
 
 | Challenge | Flag |
 |---|---|
@@ -35,6 +35,7 @@ Au total, 31 résolutions sont documentées, dont 22 avec flag exact publié. Po
 | [Extra Bon Pour Fouiller](writeups/extra-bon-pour-fouiller.md) | `SHLK{trust.shutlook.fr}` |
 | [Cache-Cache](writeups/cache-cache.md) | `SHLK{c4ch3_c4ch3_r14l1z3r_35t_d4ng3r3ux}` |
 | [Union Art Festival](writeups/union-art-festival.md) | `SHLK{J3m4ll0c_Thr34d_UAF_1s_R34l}` |
+| [Coffee Break](writeups/coffee-break.md) | `SHLK{J3m4ll0c_N3v3r_F0rg3ts}` |
 | [Back to Block](writeups/back-to-block.md) | `SHLK{1nTegr4l_fTw_ae98ba56}` |
 
 ## Index des challenges
@@ -67,7 +68,7 @@ Au total, 31 résolutions sont documentées, dont 22 avec flag exact publié. Po
 - [speedcoding](writeups/speedcoding.md) - Programmation - flag : `Non repris ici`
 - [ELF_bien_nourri](writeups/elf-bien-nourri.md) - Reverse - flag : `Non repris ici`
 - [Pareidolia](writeups/pareidolia.md) - Reverse / VM - flag : `Non repris ici`
-- [Coffee Break](writeups/coffee-break.md) - Pwn - flag : `Non repris ici`
+- [Coffee Break](writeups/coffee-break.md) - Pwn - flag : `SHLK{J3m4ll0c_N3v3r_F0rg3ts}`
 - [Bloat Big Brother](writeups/bloat-big-brother.md) - Cryptographie / Reverse - flag : `Non repris ici`
 - [EdDéjàVu](writeups/eddeja-vu.md) - Cryptographie - flag : `Non repris ici`
 - [Back to Block](writeups/back-to-block.md) - Cryptographie - flag : `SHLK{1nTegr4l_fTw_ae98ba56}`
@@ -79,7 +80,7 @@ Au total, 31 résolutions sont documentées, dont 22 avec flag exact publié. Po
 
 ## Limites connues
 
-- 31 résolutions sont documentées, dont 22 flags exacts publiés.
+- 31 résolutions sont documentées, dont 23 flags exacts publiés.
 - Les flags encore manquants ne sont pas reconstruits artificiellement.
 - Certains challenges nécessitent une instance distante, un binaire original ou une archive non publiée ; leur flag exact est donc simplement non repris ici.
 - Les candidats explicitement non validés, placeholders et flags de développement ne sont pas présentés comme flags réels.

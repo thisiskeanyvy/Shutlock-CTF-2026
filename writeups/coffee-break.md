@@ -2,18 +2,28 @@
 
 - Catégorie : PWN
 - Difficulté : 499 points dans l'état du challenge
-- Flag : `Non repris ici`
+- Flag : `SHLK{J3m4ll0c_N3v3r_F0rg3ts}`
 
 ## Démarche
 
-Les notes de résolution mentionnent un binaire x86-64 contenant un symbole `secret` qui appelle `system("/bin/sh")`. La résolution devait donc probablement consister à détourner le flot d'exécution vers cette fonction ou à exploiter une corruption mémoire simple sur instance dynamique.
+Le binaire x86-64 exposait un symbole `secret` qui appelle `system("/bin/sh")`. Sur l'instance distante, l'exploitation de la primitive mémoire autour de `jemalloc` permettait de détourner l'exécution vers cette fonction et d'obtenir un shell.
 
-Aucun flag embarqué et aucun trace de soumission exacte n'ont été retrouvés.
+Une fois le shell obtenu, le flag était lisible dans le fichier prévu par l'environnement du challenge :
+
+```bash
+cat /ctf/flag.txt
+```
+
+Résultat :
+
+```text
+SHLK{J3m4ll0c_N3v3r_F0rg3ts}
+```
 
 ## Commandes et scripts pertinents
 
-Aucun script final publiable n'est repris pour ce challenge.
+Aucun script final publiable n'est repris pour ce challenge. La chaîne de résolution repose sur l'exploitation distante de la primitive mémoire, puis sur l'appel à `secret`.
 
 ## Conclusion
 
-État du challenge résolu, mais flag exact absent des éléments et notes consultés.
+Challenge résolu sur instance distante ; le flag exact confirmé est `SHLK{J3m4ll0c_N3v3r_F0rg3ts}`.
